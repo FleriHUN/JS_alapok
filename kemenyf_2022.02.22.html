@@ -66,6 +66,17 @@
             <div class="col-2"></div>
             <div class="col-4 c">
                 <p> EGÉRGOMB LENYOMVA – FELENGEDVE <br>KÉPVÁLTÁS</p>
+                <img onmousedown="on(this)" onmouseup="out(this)" border="0" src="kepek/pic_bulboff.gif" alt="" >
+
+                <script>
+                    function on(x) {
+                        x.src="kepek/pic_bulbon.gif";
+                    }
+                
+                    function out(x) {
+                        x.src="kepek/pic_bulboff.gif";
+                    }
+                </script>
 
  
             </div>
@@ -93,7 +104,7 @@
             <div class="col-2"></div>
             <div class="col-4 c">
                 <p>EGÉRKURZOR LENYOMVA – FELENGEDVE <BR>MEGJELENÍTÉS</BR>   </p>
-                <img onmousedown=""   src="" alt="">
+                <img onmousedown="document.getElementById('demo').style.display='block'"" onmouseup="document.getElementById('demo').style.display='none'" border="0" src="kepek/pic_bulboff.gif" alt="" width="100" height="180">
             <div class="col-2"></div>
         </div>
     </div>
